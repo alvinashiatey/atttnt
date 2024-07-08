@@ -1,0 +1,7 @@
+services:
+  php:
+    build: .
+    volumes:
+      - ./app:/var/www/html
+    ports:
+      - 3000:80

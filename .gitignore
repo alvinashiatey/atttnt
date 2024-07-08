@@ -1,0 +1,50 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+app/media/*
+app/!/media/index.html
+
+# Lock files
+# ---------------
+
+app/.lock
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+*.sublime-workspace
+/.vscode
+/.idea
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/app/site/cache/*
+/app/!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/app/site/accounts/*
+/app/!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/app/site/sessions/*
+/app/!/site/sessions/index.html
+
+# License
+# ---------------
+
+/app/site/config/.license
